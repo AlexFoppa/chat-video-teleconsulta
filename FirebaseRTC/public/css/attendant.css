@@ -9,6 +9,11 @@
    color: #76767F;
 }
 
+.brand-logo img{
+   margin: 5px 5px;
+   height: 3.2rem;
+}
+
 .attendant-line {
    color: #1A1A1A;
    margin-top: 0px; 
@@ -36,6 +41,13 @@ tbody .attendant-badge div {
       height: 3rem;
       line-height: 2.5rem;
    }
+}
+
+@media screen and (max-width: 450px) {
+   .covid-text h6 {
+      display: none;
+   }
+
 }
 
 @media screen and (max-width: 450px) {
