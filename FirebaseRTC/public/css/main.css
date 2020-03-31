@@ -217,11 +217,3 @@ div#videos > video {
     display: flex;
     justify-content: center;
 }
-
-.navbar-attendant nav{
-    background-color: #fff;
-}
-
-.navbar-attendant h6 {
-    color: #909098;
-}
