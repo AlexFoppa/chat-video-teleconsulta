@@ -72,3 +72,7 @@
 .collection-item p {
    color: #92949b;
 }
+
+#buttons a {
+   background-color: red;
+}
