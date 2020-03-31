@@ -217,3 +217,13 @@ div#videos > video {
     display: flex;
     justify-content: center;
 }
+
+.endcall-screen h2{
+font-size: 3rem;
+}
+
+ .white-text {
+    text-align: center; 
+    font-size: .95em;
+}
+
