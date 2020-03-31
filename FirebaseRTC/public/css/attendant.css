@@ -1,9 +1,12 @@
 .navbar-attendant nav{
+   background-color: #fff;
+}
+.navbar-attendant {
    background-color: #4fc3ce;
 }
 
 .navbar-attendant h6 {
-   color: #fff;
+   color: #76767F;
 }
 
 .attendant-line {
@@ -134,4 +137,8 @@ tbody .low {
 
 .start-call a:hover {
    background-color: #2fa3ae;
+}
+
+.line-background {
+   background-color: #e0e0e0;
 }
