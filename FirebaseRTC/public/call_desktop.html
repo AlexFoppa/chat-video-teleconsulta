@@ -10,13 +10,14 @@
 
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-      <link rel="stylesheet" type="text/css" href="main.css">
+      <link rel="stylesheet" type="text/css" href="css/main.css">
+      <link rel="stylesheet" type="text/css" href="css/attendant.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
       <script type="text/javascript" src="./app.js"></script>
     </head>
 
-    <body class="grey lighten-3">
-      <nav class="default-green">
+    <body class="navbar-attendant">
+      <nav>
         <div class="nav-wrapper" style="height: 2em;">
           <a href="#" class="brand-logo"><img src="./pictures/logo.png" style="height: 2em;"></a>
           <ul id="nav-mobile" class="right hide-on-med-and-down">
@@ -46,11 +47,11 @@
 
                       <div class="col s6 center">
                         <!--<a  id="hiddePatientInfo" class="green darken-2 btn left-align"><i class="material-icons left">arrow_forward</i>Ocultar</a>-->
-                        <a id="hiddePatientInfo" class="btn-large" style="height: auto; font-size: 1.25em; background-color: #277269; border-radius: 0.5em; text-transform: none;"><i class="material-icons left">arrow_forward</i>Ocultar</a>
+                        <a id="hiddePatientInfo" class="btn-large"><i class="material-icons left">arrow_forward</i>Ocultar</a>
                       </div>
                       <div class="col s6">
                         <!--<a id="hang_up_info_tab" class="red btn left-align"><i class="material-icons left">call_end</i>Encerrar</a>-->
-                        <a class="btn-large" style="height: auto; font-size: 1.25em; background-color: #277269; border-radius: 0.5em; text-transform: none;"><i class="material-icons left">call_end</i>Encerrar</a>
+                        <a class="btn-large" id="endCall"><i class="material-icons left">call_end</i>Encerrar</a>
                       </div>
                     </div>
                   </ul>

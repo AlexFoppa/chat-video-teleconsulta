@@ -50,4 +50,25 @@
 .col .button a:hover {
    background-color: #2fa3ae; 
 } 
-/* grey #9e9e9e */
+
+#hiddePatientInfo {
+   height: auto; 
+   font-size: 1.25em; 
+   background-color: #fce6a0; 
+   border-radius: 0.5em; 
+   text-transform: none;
+   color: #92949b;
+}
+
+#endCall {
+   height: auto; 
+   font-size: 1.25em; 
+   background-color: #fea3c4; 
+   border-radius: 0.5em; 
+   text-transform: none;
+   color: #92949b;
+}
+
+.collection-item p {
+   color: #92949b;
+}
