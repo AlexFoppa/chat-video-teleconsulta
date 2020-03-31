@@ -23,11 +23,59 @@
    border-radius: 5.2px;
 }
 
+tbody .attendant-badge div {
+   width: 10rem;
+   height: 3rem;
+   line-height: 2.5rem;
+}
+
+@media screen and (max-width: 450px) {
+   tbody .attendant-badge div {
+      width: 6rem;
+      height: 3rem;
+      line-height: 2.5rem;
+   }
+}
+
+@media screen and (max-width: 450px) {
+   #nav-call h6 {
+      display: none;
+   }
+}
+
+tbody td {
+   background-color: white;
+}
+
+tbody tr {
+   border-bottom: none;
+}
+
+tbody #first {
+   border-top-right-radius: .5rem;
+}
+
+tbody #third {
+   border-bottom-right-radius: .5rem;
+}
+
+tbody .high {
+   border-top-left-radius: .5rem;
+}
+
+tbody .low {
+   border-bottom-left-radius: .5rem;
+}
+
 .high div{
    background-color: #fea3c4;
 }
 
 .medium div{
+   background-color: #fce6a0;
+}
+
+.medium td{
    background-color: #fce6a0;
 }
 

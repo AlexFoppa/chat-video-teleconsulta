@@ -22,9 +22,17 @@
     </head>
     <body class="navbar-attendant">
         <nav>
-            <div class="nav-wrapper" style="height: 2em;">
+            <div class="nav-wrapper" id="nav-call" style="height: 2em;">
                 <a href="#" class="brand-logo"><img src="./pictures/logo.png" style="height: 2em;"></a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down"></ul>
+                <div style="float: right; padding-right: 4em;">
+                    <h6 style="text-align: center;">
+                        <b>COMBATE AO COVID-19</b>
+                    </h6>
+                    <h6 style="text-align: center;">
+                        Atendimento especializado
+                    </h6>
+                </div>
             </div>
         </nav>
         <div class="default-green">
@@ -33,13 +41,13 @@
                     <b>Aguarde um momento</b>
                 </h6>
             </a>
-        </div>        
+        </div>
         <div class="container">
             <div class="row">
                 <div class="center">
                     <div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
                 </div>
-            </div>   
+            </div>
             <ul class="collection" style="border-radius: 0.8em; ">
                 <li class="collection-item" style="border-radius: 0.8em; background-color: #DCDCDC;">
                     <p style="background-color: white; padding: 0.25em; border-radius: .3em;">Paciente: M - 56</p>
@@ -48,18 +56,24 @@
                         <ul class="collection" style="border-radius: 0.8em;">
                             <li class="collection-item" style="padding: .5em; background-color: #DCDCDC;">
                                 <table style="font-size: .9em;">
-                                    <tbody >
-                                        <tr style="border-bottom: none;">
-                                            <td>Alta</td>
-                                            <td class="center" style="padding: .5em; background-color: white; border-top-right-radius: .5em;">37</td>
+                                    <tbody>
+                                        <tr>
+                                            <td class="attendant-badge high" id="priority">
+                                                <div> Alta </div> 
+                                            </td>
+                                            <td class="center" id="first"> 37 </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="attendant-badge medium" id="priority"> 
+                                                <div> Media </div> 
+                                            </td>
+                                            <td class="center" id="second"> 209 </td>
                                         </tr>
                                         <tr style="border-bottom: none;">
-                                            <td>Media</td>
-                                            <td class="center" style="padding: .5em; background-color: white;">209</td>
-                                        </tr>
-                                        <tr style="border-bottom: none;">
-                                            <td>Baixa</td>
-                                            <td class="center" style="padding: .5em; background-color: white; border-bottom-right-radius: .5em;">68</td>
+                                            <td class="attendant-badge low" id="priority"> 
+                                                <div> Baixa </div>
+                                            </td>
+                                            <td class="center" id="third"> 68 </td>
                                         </tr>
                                     </tbody>
                                 </table>
