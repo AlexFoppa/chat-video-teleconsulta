@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "staging": "eagle-care-tele-consulta",
+    "testing": "eagle-care-tele-consulta"
+  }
+}
