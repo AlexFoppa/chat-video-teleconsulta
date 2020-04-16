@@ -134,6 +134,14 @@ tbody .low {
    color: #92949b;
 }
 
+.collection {
+   background-color: #fff;
+}
+
+.collection .collection-item {
+   border-bottom: none!important;
+}
+
 #buttons a {
    background-color: red;
 }
