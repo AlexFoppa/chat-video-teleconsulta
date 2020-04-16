@@ -55,7 +55,7 @@ body {
     font-size: 13px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1200px) {
     body, #message {
         margin-top: 0;
         background: white;

@@ -111,7 +111,7 @@
 
 
 
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
 
     body, #message {
 
@@ -191,8 +191,39 @@ div#videos > video {
 
 }
 
-.default-green{
+.default-background{
 
-    background-color: #349068;
+    background: linear-gradient(to bottom, #58C0D6, #51C3D0, #43C9C4);
 
 }
+
+#lineUpdate {
+    color: #fff;
+    background-color: #d6d7dd;
+    border: none;
+    padding: 1.3rem;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14);
+    border-radius: 2px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+#lineUpdate:hover {
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.40);
+    /* background-color: #eee; */
+}
+
+.div-button {
+    display: flex;
+    justify-content: center;
+}
+
+.endcall-screen h2{
+font-size: 3rem;
+}
+
+ .white-text {
+    text-align: center; 
+    font-size: .95em;
+}
+
