@@ -1,0 +1,25 @@
+[debug] [2020-04-17T21:06:01.459Z] ----------------------------------------------------------------------
+[debug] [2020-04-17T21:06:01.461Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\alfop\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2020-04-17T21:06:01.461Z] CLI Version:   7.16.0
+[debug] [2020-04-17T21:06:01.461Z] Platform:      win32
+[debug] [2020-04-17T21:06:01.461Z] Node Version:  v12.13.0
+[debug] [2020-04-17T21:06:01.462Z] Time:          Fri Apr 17 2020 18:06:01 GMT-0300 (GMT-03:00)
+[debug] [2020-04-17T21:06:01.462Z] ----------------------------------------------------------------------
+[debug] [2020-04-17T21:06:01.462Z] 
+[debug] [2020-04-17T21:06:01.467Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-04-17T21:06:01.467Z] > authorizing via signed-in user
+[debug] [2020-04-17T21:06:01.468Z] [iam] checking project desafiocovid19-2be7d for permissions ["firebase.projects.get"]
+[debug] [2020-04-17T21:06:01.470Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/desafiocovid19-2be7d:testIamPermissions  
+
+[debug] [2020-04-17T21:06:02.463Z] <<< HTTP RESPONSE 200
+[debug] [2020-04-17T21:06:02.465Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/desafiocovid19-2be7d  
+ 
+[debug] [2020-04-17T21:06:02.869Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\alfop\chat-video-teleconsulta-master\FirebaseRTC'...
+[info] 
+[debug] [2020-04-17T21:06:02.872Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/desafiocovid19-2be7d/webApps/-/config  
+ 
+[debug] [2020-04-17T21:06:03.374Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
