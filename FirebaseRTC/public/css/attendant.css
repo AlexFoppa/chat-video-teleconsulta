@@ -149,13 +149,17 @@ tbody .low {
    padding: 0.85em; 
    height: auto; 
    font-size: 1.5em;
-   background-color: #4fc3ce; 
+   background-color: #a1ede4; 
    border-radius: 0.5em; 
    text-transform: none;
 }
 
+#GoToCall b {
+   color: #92949b;
+}
+
 .start-call a:hover {
-   background-color: #2fa3ae;
+   background-color: #a1ede4;
 }
 
 .line-background {
