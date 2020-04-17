@@ -1,39 +1,37 @@
 <html>
     <head>
-        <link href="css/main.css" rel="stylesheet">
+        <link href="main.css" rel="stylesheet">
         <!--Import Google Icon Font-->
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <!--Import materialize.css-->
         <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-
+  
         <!--Let browser know website is optimized for mobile-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     </head>
+      
+    <body class="default-green">
 
-    <body class="default-background">
         <div class="white-text custom_nav" style="padding-bottom: 0em;">
-            <p>
-                <h3>Tele-Consulta</h3>
-            </p> 
-            <h6>Com base nos dados fornecidos, voc&ecirc; ser&aacute; atendido(a) por um especialista.</h6>
+            <h3>Téle-Consulta</h3>
+            <div>
+                <h6>Com base nos dados fornecidos, você será atendido(a) por um especialista.</h6>
+            </div>
         </div>
+
+
         <div class="white-text  custom_nav" style="padding-top: 0em; padding-bottom: 0em;">
-            <p>
-                <h3>Uso de v&iacute;deo e microfone</h3>
-            </p>
-            <h6>Para poder conversar com o especialista, &eacute; necess&aacute;rio que a c&acirc;mera e o microfone sejam utilizados, exclusivamente para viabilizar o atendimento.</h6>
+            <h3>Uso de vídeo e microfone</h3>
+            <div>
+                <h6>Para poder conversar com o especialista, é necessário que a câmera e o microfone sejam utilizados, exclusivamente para viabilizar o atendimento.</h6>
+            </div>
+
         </div>
-        <div class="mdc-dialog__scrim"></div>
-        <br><br>
-        <div class="div-button">
-            <button id="lineUpdate" type="button" class="mdc-button mdc-dialog__button"
-                data-mdc-dialog-action="yes">
-                <span class="mdc-button__label">Atualiza fila</span>
-            </button>
-            <span id="line"></span>
-            <span id="meOnLine"></span>
-        </div>
-        <script src="app.js"></script>
-    </body>
+    </div>
+    <div class="mdc-dialog__scrim"></div>
+</div>
+
+<script src="app.js"></script>
+</body>
 </html>

@@ -1,6 +1,6 @@
 {
   "projects": {
-    "sta8000ging": "eagle-care-tele-consulta",
+    "default": "eagle-care-tele-consulta",
     "staging": "eagle-care-tele-consulta"
   }
 }
