@@ -121,13 +121,20 @@ tbody .low {
    color: #92949b;
 }
 
-#endCall {
+#hangupBtn {
    height: auto; 
    font-size: 1.25em; 
    background-color: #fea3c4; 
    border-radius: 0.5em; 
    text-transform: none;
    color: #92949b;
+   font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+#hangUpButton {
+   background-color: transparent;
+   border: none;
+   box-shadow: none;
 }
 
 .collection-item p {
