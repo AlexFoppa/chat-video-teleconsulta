@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Tele-Consulta</title>
+    <title>Teleconsulta</title>
     <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
     <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -38,15 +38,21 @@
         <div style="text-align: center; padding-left: 0.5em; padding-right: 0.5em;">
           <a style="color: gray; font-size: 0.5em;">Existem 00 pessoas em sua frente na fila. Por favor, tenha paciência e permaneça conosco</a>
         </div>
+        <span id="meOnLine" style="color: gray; font-size: 0.5em;font-size: 18px;"></span>
       </div>
       <div class="col s4" style="padding-top: 1em;">
         <div class="col s6 offset-s1">
           <div class="center">
-            <a class=" grey lighten-2" style="padding: .45em ; border: solid; border-color: #757575; border-width: 0.05em; color: #277269; height: auto; font-size: 2.5em; border-radius: 0.25em; text-transform: none;"><b>00</b></a>
+            <a class=" grey lighten-2" id="myNumberOnLine" style="padding: .45em ; border: solid; border-color: #757575; border-width: 0.05em; color: #277269; height: auto; font-size: 2.5em; border-radius: 0.25em; text-transform: none;"><b>00</b></a>
           </div>
         </div>
       </div>
     </div>
+    <script src="line.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
+    <div id="videos">
+      <video id="remoteVideo" muted autoplay playsinline></video>
+      <video id="localVideo" muted autoplay playsinline></video>
+    </div>
   </body>
 </html>

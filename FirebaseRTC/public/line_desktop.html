@@ -1,11 +1,18 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Tele-Consulta</title>
+    <title>Teleconsulta</title>
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+    <!-- update the version number as needed -->
+    <script defer src="/__/firebase/5.9.3/firebase-app.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script defer src="/__/firebase/5.9.3/firebase-firestore.js"></script>
+    <!-- initialize the SDK after all desired features are loaded -->
+    <script defer src="/__/firebase/init.js"></script>
 
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -37,19 +44,21 @@
             <b> PESSOAS AGUARDANDO <br/>ATENDIMENTO </b>
           </h6>
           <br>
-          <a class="" style="padding: .45em ; background-color: #F5F5F5; border: solid; border-color: #C8CAD1; border-width: 0.05em; color: #76767F; height: auto; font-size: 5em; border-radius: 0.25em; text-transform: none;">
+          <span id="NumberOnLine" class=" grey lighten-2" style="padding: .45em ; border: solid; border-color: #757575; border-width: 0.05em; color: #277269; height: auto; font-size: 2.5em; border-radius: 0.25em; text-transform: none;">00</span>
+          <a class="" id="NumberOnLine2" style="padding: .45em ; background-color: #F5F5F5; border: solid; border-color: #C8CAD1; border-width: 0.05em; color: #76767F; height: auto; font-size: 5em; border-radius: 0.25em; text-transform: none;">
             <b> 00 </b>
           </a>
         </div>
       </div>
       <div class="col s5" style="padding-top: 6em;">
         <div class="start-call">
-          <a class="btn-large">
+          <a class="btn-large" id="GoToCall">
             <b> Iniciar <br/> atendimento </b>
           </a>
         </div>
       </div>
     </div>
+    <script src="line_desktop.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
   </body>
 </html>
