@@ -159,5 +159,5 @@ tbody .low {
 }
 
 .line-background {
-   background-color: #e0e0e0;
+   background: linear-gradient(to bottom, #58C0D6, #51C3D0, #43C9C4);
 }
