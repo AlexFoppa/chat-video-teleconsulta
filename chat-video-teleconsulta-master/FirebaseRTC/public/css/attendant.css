@@ -1,0 +1,167 @@
+.navbar-attendant nav{
+   background-color: #fff;
+}
+.navbar-attendant {
+   background-color: #4fc3ce;
+}
+
+.navbar-attendant h6 {
+   color: #76767F;
+}
+
+.brand-logo img{
+   margin: 5px 5px;
+   height: 3.2rem;
+}
+
+.attendant-line {
+   color: #1A1A1A;
+   margin-top: 0px; 
+   padding: 1.5em; 
+   font-size: 18px;
+}
+
+.attendant-badge div {
+   width: 5rem;
+   text-align: center;
+   color: #92949b;
+   padding: .3rem;
+   border-radius: 5.2px;
+}
+
+tbody .attendant-badge div {
+   width: 10rem;
+   height: 3rem;
+   line-height: 2.5rem;
+}
+
+@media screen and (max-width: 450px) {
+   tbody .attendant-badge div {
+      width: 6rem;
+      height: 3rem;
+      line-height: 2.5rem;
+   }
+}
+
+@media screen and (max-width: 450px) {
+   .covid-text h6 {
+      display: none;
+   }
+
+}
+
+@media screen and (max-width: 450px) {
+   #nav-call h6 {
+      display: none;
+   }
+}
+
+tbody td {
+   background-color: white;
+}
+
+tbody tr {
+   border-bottom: none;
+}
+
+tbody #first {
+   border-top-right-radius: .5rem;
+}
+
+tbody #third {
+   border-bottom-right-radius: .5rem;
+}
+
+tbody .high {
+   border-top-left-radius: .5rem;
+}
+
+tbody .low {
+   border-bottom-left-radius: .5rem;
+}
+
+.high div{
+   background-color: #fea3c4;
+}
+
+.medium div{
+   background-color: #fce6a0;
+}
+
+.medium td{
+   background-color: #fce6a0;
+}
+
+.low div{
+   background-color: #a1ede4;
+}
+
+.col .button {
+   padding-left: 0em!important;
+}
+
+.col .button a {
+   height: auto; 
+   font-size: 1.25em; 
+   background-color: #4fc3ce; 
+   border-radius: 0.5em; 
+   text-transform: none;
+}
+
+.col .button a:hover {
+   background-color: #2fa3ae; 
+} 
+
+#hiddePatientInfo {
+   height: auto; 
+   font-size: 1.25em; 
+   background-color: #fce6a0; 
+   border-radius: 0.5em; 
+   text-transform: none;
+   color: #92949b;
+}
+
+#hangupBtn {
+   height: auto; 
+   font-size: 1.25em; 
+   background-color: #fea3c4; 
+   border-radius: 0.5em; 
+   text-transform: none;
+   color: #92949b;
+   font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+#hangUpButton {
+   background-color: transparent;
+   border: none;
+   box-shadow: none;
+}
+
+.collection-item p {
+   color: #92949b;
+}
+
+#buttons a {
+   background-color: red;
+}
+
+.start-call a {
+   padding: 0.85em; 
+   height: auto; 
+   font-size: 1.5em;
+   background-color: #a1ede4; 
+   border-radius: 0.5em; 
+   text-transform: none;
+}
+
+#GoToCall b {
+   color: #92949b;
+}
+
+.start-call a:hover {
+   background-color: #a1ede4;
+}
+
+.line-background {
+   background: linear-gradient(to bottom, #58C0D6, #51C3D0, #43C9C4);
+}
