@@ -19,6 +19,7 @@
     <link rel="stylesheet" type="text/css" href="css/attendant.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
   </head>
+  <div id="lineInfo" alt="Informações sobre a fila" >
   <body class="line-background">
     <div class="" style="background-color: white;">
       <a href="#" class="center">
@@ -35,9 +36,6 @@
     </h6>
     <div class="row">
       <div class="col s6" style="padding-top: 0em;">
-        <div style="text-align: center; padding-left: 0.5em; padding-right: 0.5em;">
-          <a style="color: gray; font-size: 0.5em;">Existem 00 pessoas em sua frente na fila. Por favor, tenha paciência e permaneça conosco</a>
-        </div>
         <span id="meOnLine" style="color: gray; font-size: 0.5em;font-size: 18px;"></span>
       </div>
       <div class="col s4" style="padding-top: 1em;">
@@ -50,6 +48,7 @@
     </div>
     <script src="line.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
+  </div>
     <div id="videos">
       <video id="remoteVideo" muted autoplay playsinline></video>
       <video id="localVideo" muted autoplay playsinline></video>

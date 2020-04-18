@@ -160,7 +160,7 @@ function registerPeerConnectionListeners() {
     }
      
     if(`${peerConnection.connectionState}`=="connected"){
-      document.querySelector('#title').innerText =`Você está sendo atendido por: Nome do especialista`;
+     // document.querySelector('#title').innerText =`Você está sendo atendido por: Nome do especialista`;
       connected = true;
       hideLineInformation();
     }
@@ -227,7 +227,7 @@ function hideVideo(){
   document.getElementById("localVideo").style.visibility = "hidden";
 }
 function hideLineInformation(){
-  document.getElementById("lineInfo").style.visibility = "hidden";;
+  document.getElementById("lineInfo").style.visibility = "hidden";
   document.getElementById("remoteVideo").style.visibility = "";
 }
 
